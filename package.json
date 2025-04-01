@@ -1,0 +1,37 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "keywords": [
+    "game"
+  ],
+  "homepage": "https://github.com/dm-morozov/39_homework_for_the_lecture_working_environment#readme",
+  "bugs": {
+    "url": "https://github.com/dm-morozov/39_homework_for_the_lecture_working_environment/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dm-morozov/39_homework_for_the_lecture_working_environment.git"
+  },
+  "license": "ISC",
+  "author": "dm-morozov",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "build": "babel src -d dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.27.0",
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "@eslint/js": "^9.23.0",
+    "core-js": "^3.41.0",
+    "eslint": "^9.23.0",
+    "eslint-plugin-prettier": "^5.2.5",
+    "globals": "^16.0.0",
+    "prettier": "^3.5.3"
+  }
+}
